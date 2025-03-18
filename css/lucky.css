@@ -30,3 +30,9 @@ body {
     margin-bottom: 1rem;
     font-variant: small-caps;
 }
+#discount{
+    position: absolute;
+    height: 100px;
+    position: right;
+
+}
