@@ -2,37 +2,58 @@
 body {
     background-color: #fbefdb;
     font-family: "Oi", serif;
-    font-weight: 100;
+    font-weight: normal;
     font-style: normal;
 }
 
 .banner{
     background-image: url(/Bence282.github.io/img/banner.jpg);
-    height: 400px;
+    height:400px;
     background-position: center center;
     background-size: cover;
+}
 
-}
-.kave{
+h1{
+    font-family: "Fredericka the Great", cursive;
     color: #1f5b25;
-    background-color:#fff;
-    border: 1px solid #1f5b25;
-    border-radius: 4px;
-    margin-bottom: 1rem;
-}
-.kave:hover{
-    box-shadow: 0px 0px 5px #1f5b25;
-}
-.kave>h2{
-    font-size: 1rem;
     text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-variant: small-caps;
 }
+
+.kave{
+    columns:#1f5b25;
+    background-color: #fff;
+    border:1px solid #1f5b25;
+    border-radius:4px;
+    margin-bottom:1rem;
+    position: relative;
+    display:inline-block;
+}
+
+.kave:hover{
+    box-shadow:0px 0px 5px #1f5b25;
+}
+
+.kave>h2{
+    font-size:1rem;
+    text-align:center;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    font-variant:small-caps;
+}
+
 #discount{
-    position: absolute;
-    width: 60px;
-    top: 10px;
-    right: 20px;
+    position:absolute;
+    height:25%;
+    right:1%;
+}
+
+.footer{
+    background-color: #1f5b25;
+    color: white;
+}
+
+footer li>img{
+    list-style-type: none;
+    width: 15px;
+    margin-right: 10px;
 }
