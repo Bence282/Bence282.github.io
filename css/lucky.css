@@ -19,21 +19,21 @@ h1{
     text-align: center;
 }
 
-.kave{
+.card{
     columns:#1f5b25;
     background-color: #fff;
     border:1px solid #1f5b25;
-    border-radius:4px;
+    border-radius:3px;
     margin-bottom:1rem;
     position: relative;
     display:inline-block;
 }
 
-.kave:hover{
+.card:hover{
     box-shadow:0px 0px 5px #1f5b25;
 }
 
-.kave>h2{
+.card>h2{
     font-size:1rem;
     text-align:center;
     margin-top:1rem;
