@@ -23,10 +23,11 @@ h1{
     columns:#1f5b25;
     background-color: #fff;
     border:1px solid #1f5b25;
-    border-radius:3px;
-    margin-bottom:1rem;
+    border-radius:6px;
+    margin-bottom:1.5rem;
     position: relative;
     display:inline-block;
+
 }
 
 .card:hover{
