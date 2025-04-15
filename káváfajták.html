@@ -46,7 +46,7 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-4 col-md-6 mr-1">
+          <div class="col-lg-4 col-md-6 mr-1" data-bs-toggle="modal" data-bs-target="#AmericanoModal">
            <div class="card" style="width: 20rem;">
             <img src="./img/coffees/americano_k.png" class="card-img-top" alt="">
             <div class="card-body">
@@ -55,7 +55,7 @@
           </div> 
           </div>
           
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6" data-bs-toggle="modal" data-bs-target="#CappucinoModal">
             <div class="card" style="width: 20rem;">
               <img src="./img/coffees/cappuccino_k.png" class="card-img-top" alt="">
               <img id="discount" src="./img/icons/sunflower.svg" alt="" class="img-fluid">
@@ -65,7 +65,7 @@
             </div> 
           </div>
           
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6" data-bs-toggle="modal" data-bs-target="#LatteModal">
             <div class="card" style="width: 20rem;">
               <img src="./img/coffees/latte_k.png" class="card-img-top" alt="">
               <div class="card-body">
@@ -74,7 +74,7 @@
             </div> 
           </div>
           
-          <div class="col-lg-4 col-md-6">
+          <div class="col-lg-4 col-md-6" data-bs-toggle="modal" data-bs-target="#EspressoModal">
             <div class="card" style="width: 20rem;">
               <img src="./img/coffees/espresso_k.png" class="card-img-top" alt="">
               <div class="card-body">
@@ -84,6 +84,124 @@
           </div>
         </div>
       </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="AmericanoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Americano</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="./img/coffees/americano_k.png" class="img-fluid" alt="Americano">
+            </div>
+            <div class="col-sm-8">
+              <h2>Americano</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores corrupti quasi iusto nemo error commodi fugiat hic natus adipisci nesciunt repellat, dolorum mollitia consectetur perspiciatis ullam. Molestiae obcaecati officiis tempora!</p>
+              <p>Aut officiis quisquam, nulla amet maxime cum aliquid dolores recusandae facere officia! Inventore iste dolorum soluta velit dignissimos quasi, nisi vero est cupiditate, ipsa eligendi neque. Ipsa perspiciatis reiciendis consequuntur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="CappucinoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Cappucino</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="./img/coffees/cappuccino_k.png" class="img-fluid" alt="Cappucino">
+            </div>
+            <div class="col-sm-8">
+              <h2>Cappucino</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores corrupti quasi iusto nemo error commodi fugiat hic natus adipisci nesciunt repellat, dolorum mollitia consectetur perspiciatis ullam. Molestiae obcaecati officiis tempora!</p>
+              <p>Aut officiis quisquam, nulla amet maxime cum aliquid dolores recusandae facere officia! Inventore iste dolorum soluta velit dignissimos quasi, nisi vero est cupiditate, ipsa eligendi neque. Ipsa perspiciatis reiciendis consequuntur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="LatteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Latte</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="./img/coffees/latte_k.png" class="img-fluid" alt="Latte">
+            </div>
+            <div class="col-sm-8">
+              <h2>Latte</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores corrupti quasi iusto nemo error commodi fugiat hic natus adipisci nesciunt repellat, dolorum mollitia consectetur perspiciatis ullam. Molestiae obcaecati officiis tempora!</p>
+              <p>Aut officiis quisquam, nulla amet maxime cum aliquid dolores recusandae facere officia! Inventore iste dolorum soluta velit dignissimos quasi, nisi vero est cupiditate, ipsa eligendi neque. Ipsa perspiciatis reiciendis consequuntur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="EspressoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Espresso</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-4">
+              <img src="./img/coffees/espresso_k.png" class="img-fluid" alt="Espresso">
+            </div>
+            <div class="col-sm-8">
+              <h2>Espresso</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores corrupti quasi iusto nemo error commodi fugiat hic natus adipisci nesciunt repellat, dolorum mollitia consectetur perspiciatis ullam. Molestiae obcaecati officiis tempora!</p>
+              <p>Aut officiis quisquam, nulla amet maxime cum aliquid dolores recusandae facere officia! Inventore iste dolorum soluta velit dignissimos quasi, nisi vero est cupiditate, ipsa eligendi neque. Ipsa perspiciatis reiciendis consequuntur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
       <div class="footer">
         <footer class="container">
           <div class="row">
