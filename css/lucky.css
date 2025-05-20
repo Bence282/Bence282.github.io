@@ -64,3 +64,30 @@ footer li>img{
 .modal-footer{
     background-color: #fbefdb;
 }
+
+.li{
+    columns:#1f5b25;
+    background-color: #fff;
+    border:1px solid #1f5b25;
+    border-radius:6px;
+    margin-bottom:1.5rem;
+    position: relative;
+    display:inline-block;
+
+}
+
+.li:hover{
+    box-shadow:0px 0px 5px #1f5b25;
+}
+
+.blog-img{
+    float: right;
+}
+
+.blog-img2{
+    float: left;
+}
+
+.blog-div{
+    float: left;
+}
